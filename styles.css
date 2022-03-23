@@ -65,7 +65,3 @@ body {
   margin:  5%;
   color: #FEF2BF;
 }
-
-@media (max-width:1001px) {
-  .btn{ height: 200px; width: 200px;}
-}
