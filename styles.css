@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  background-color: #888888;
 }
 
 #level-title {
@@ -16,7 +16,19 @@ body {
   margin: auto;
 
 }
-
+.start{
+  margin: 25px auto;
+  width: 400px;
+  border: 10px solid black;
+  border-radius: 40px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FEF2BF;
+  background-color: #011f3f;
+}
+.start:hover{
+  border: 10px solid white;
+}
 .btn {
   margin: 25px;
   display: inline-block;
