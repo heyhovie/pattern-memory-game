@@ -1,11 +1,15 @@
 body {
   text-align: center;
   background-color: #fdf0d5;
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1024px;
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin:  5%;
   color: #1c110a;
 }
@@ -35,8 +39,13 @@ body {
   display: inline-block;
   height: 200px;
   width: 200px;
-  border: 10px solid black;
+  border: 10px solid #1c110a;
   border-radius: 20%;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  border: 10px solid white;
 }
 
 .game-over {
@@ -67,14 +76,37 @@ body {
 
 .score{
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-size: =2rem;
+  color: #1c110a;
+  margin: 0 5px;
 }
 
 .score-number{
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-size: 2rem;
+  color: #1c110a;
+  margin: 0 5px;
+}
+
+.score-board{
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 1px inset;
+  display: flex;
+  justify-content:center;
+  margin: auto;
+  width:380px;
+  height:120px;
+}
+
+.score-shell{
+  background-image: url(images/backgroundaccent.png);
+  background-size: contain;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 1px;
+  display: flex;
+  width:400px;
+  height:140px;
+  margin: auto;
 }
