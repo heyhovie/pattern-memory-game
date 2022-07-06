@@ -1,16 +1,17 @@
 body {
   text-align: center;
   background-color: #fdf0d5;
-  /* background-image: url('images/background.png'); */
+  background-image: url('images/background.png');
   background-repeat: no-repeat;
-  width: 1440px;
-  height: 1024px;
+  background-size: cover;
+  /* width: 1440px; */
+  /* height: 1024px; */
 }
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 1.5rem;
-  margin: 5%;
+  font-size: 2rem;
+  margin: 72px auto;
   color: #1c110a;
 }
 
@@ -20,10 +21,10 @@ body {
   box-shadow: 0 2px 8px 3px #999 inset;
   display: flex;
   align-items: center;
-  margin: auto;
+  margin-left: -300px;
   position: absolute;
   top: 295px;
-  left: 420px;
+  left: 50%;
   height: 600px;
   width: 600px;
 }
@@ -40,6 +41,7 @@ body {
   transition: 0.3s;
   padding: 0 20px;
   border-radius: 15px;
+  justify-content: center;
 }
 
 .start:hover {
@@ -102,7 +104,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   color: #1c110a;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
 }
 
 .score-board {
@@ -113,7 +115,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  width: 380px;
+  width: 480px;
   height: 120px;
 }
 
@@ -123,12 +125,12 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 8px 1px #999;
   display: flex;
-  width: 400px;
+  width: 500px;
   height: 140px;
-  margin: auto;
+  margin-left: -250px;
   position: absolute;
   top: 176px;
-  left: 520px;
+  left: 50%;
 }
 
 .signature{
