@@ -31,6 +31,7 @@ function checkAnswer(currentLevel){
 
       if (userClickedPattern.length === gamePattern.length){
         $("h1.score-number").text(level*10);
+        // Add high score function here
         setTimeout(function () {
           nextSequence();
         }, 1000);
